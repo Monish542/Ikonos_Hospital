@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.top-bar {
+    background-color: #1BBDE4;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 14px;
+}
+
+.left-bar p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+}
+
+.left-bar img {
+    width: 14px;
+    height: 14px;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.top-right img {
+    width: 14px;
+    height: 14px;
+    opacity: 0.8;
+}
+
+.top-right input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    color: white;
+    padding: 4px 6px;
+    outline: none;
+}
+
+.top-right input::placeholder {
+    color: #FFFFFF;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+
+    .container {
+        display: flex;
+
+        img {
+            width: 187px;
+            height: auto;
+            ;
+        }
+    }
+}
+
+.menu {
+    a {
+        text-decoration: none;
+        color: #707070;
+
+
+    }
+
+    ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        align-items: center;
+
+    }
+}
+
+.bookmyappointment {
+    background-color: #1BBDE4;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    text-decoration: none;
+    height: auto;
+    ;
+
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+
+    }
+
+}
+
+.hero-section {
+    display: flex;
+    min-width: 430px;
+    width: 100%;
+    height: calc(100vh - 179px);
+    margin-top: 20px;
+
+
+
+    .hero-bg {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(22, 6, 60);
+        justify-content: center;
+        align-items: start;
+        width: 50%;
+        padding: 10px 10px 10px 100px;
+
+
+        h1 {
+            color: #1BBDE4;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 1.5;
+            margin-bottom: 20px;
+
+        }
+
+        p {
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        .MakeanEnquiry {
+            background-color: #1BBDE4;
+            color: #FFFFFF;
+            padding: 10px 15px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+    }
+
+    .hero-img {
+        width: 50%;
+        height: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}
+
+
+.support-wrapper {
+  max-width: 860px;     
+  margin: 80px auto;   
+  font-family: sans-serif;
+}
+
+
+.chat-support,
+.chatbox {
+  margin: 0;
+  max-width: 100%;
+}
+
+
+
+.chat-support .content {
+  display: flex;
+}
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F1F1F1;
+  padding: 40px 70px;
+  flex: 1;              
+
+
+.section_support {
+  background-color: #1BBDE4;
+  color: #FFFFFF;
+  padding: 40px;
+  flex: 1;             
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.section_support img {
+  width: 67px;
+  height: 67px;
+  margin-bottom: 40px;
+}
+
+.section_support p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.section_support p::after {
+  content: "";
+  display: block;
+  width: 100%;         
+  height: 4px;
+  background-color: #FFFFFF;
+  margin-top: 12px;
+}
+
+
+.patient {
+  flex: 1;            
+}
+
+.patient img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.chatbox .chat {
+  display: flex;
+}
+
+
+.chat_icon {
+  flex: 1;
+}
+
+.chat_icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.chat_text {
+  background-color: #1BBDE4;
+  color: #FFFFFF;
+  padding: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.chat_text img {
+  width: 67px;
+  height: 67px;
+  margin-bottom: 40px;
+}
+
+.chat_text p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.chat_text p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #FFFFFF;
+  margin-top: 12px;
+}
+
+/* middle-right image */
+.icon {
+  flex: 1;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* right blue “Book Your Lab Test Slot” */
+.text {
+  background-color: #1BBDE4;
+  color: #FFFFFF;
+  padding: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.text img {
+  width: 67px;
+  height: 67px;
+  margin-bottom: 40px;
+}
+
+.text p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.text p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #FFFFFF;
+  margin-top: 12px;
+}
